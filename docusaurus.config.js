@@ -1,6 +1,6 @@
 // @ts-check
 
-const repo = process.env.GITHUB_REPOSITORY || 'nswmesh/NSWMesh';
+const repo = process.env.DOCUSAURUS_REPOSITORY || process.env.GITHUB_REPOSITORY || 'mukw-labs/NSWMesh';
 const [organizationName, projectName] = repo.split('/');
 const isGitHubActions = process.env.GITHUB_ACTIONS === 'true';
 
