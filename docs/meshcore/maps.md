@@ -1,0 +1,26 @@
+---
+title: Maps
+---
+
+# MeshCore Maps
+
+Maps are built from observer data. Observer services listen to MeshCore traffic and publish packets, node adverts, position data, and other metadata to map or analytics services over the internet.
+
+Public maps are useful for checking nearby repeaters, understanding rough coverage, and seeing whether observer data is being received. They should not be treated as a complete or private view of the mesh.
+
+## Map Resources
+
+| Map | Link | Data source | Notes |
+| --- | --- | --- | --- |
+| WMCD CoreScope | [corescope.wmcd.net.au:8443](https://corescope.wmcd.net.au:8443) | WMCD MQTT | WMCD CoreScope map. |
+| Beefmesh | [beefmesh.link](https://beefmesh.link) | WMCD MQTT | Beefmesh map. |
+| EastMesh | [map.eastmesh.au](https://map.eastmesh.au/) | EastMesh observers | Aus Eastern Mesh live map. |
+| EastMesh CoreScope | [core.eastmesh.au](https://core.eastmesh.au/) | EastMesh observers | EastMesh CoreScope view. |
+| MeshMapper | [syd.meshmapper.net](https://syd.meshmapper.net/) | LetsMesh | Sydney MeshMapper coverage map. See the [MeshMapper wiki](https://wiki.meshmapper.net/). |
+| MeshSydney CoreSense | [meshsydney.com/coresense-map](https://meshsydney.com/coresense-map) | CoreSense observer data | Live node, RF link, and packet animation map for Sydney. |
+
+## Location Privacy
+
+Anything sent in adverts or public channels may be collected by observers and shown on public maps. Set an approximate location if you want your node to be useful for coverage planning without publishing an exact address.
+
+If your node is missing from a map, check that it is advertising, has a location configured, is using the expected radio settings, and is within range of an observer feeding that map.
