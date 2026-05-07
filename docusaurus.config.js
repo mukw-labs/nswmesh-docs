@@ -77,12 +77,7 @@ const config = {
           {
             title: 'Wiki',
             items: [
-              {label: 'Getting Started', to: '/getting-started'},
-              {label: 'MeshCore', to: '/meshcore/overview'},
-              {label: 'Meshtastic', to: '/meshtastic/overview'},
-              {label: 'Partners', to: '/partners/overview'},
-              {label: 'Brand Guidelines', to: '/brand-guidelines'},
-              {label: 'Contributing', to: '/contributing'}
+              {label: 'Getting Started', to: '/getting-started'}
             ]
           },
           {
@@ -92,7 +87,7 @@ const config = {
             ]
           }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} NSW Mesh contributors. Some of this website and its content may have used AI-assisted generation.`
+        copyright: `Copyright © ${new Date().getFullYear()} NSW Mesh. Some of this website and its content may have used AI-assisted generation.`
       },
       prism: {
         theme: require('prism-react-renderer').themes.github,
