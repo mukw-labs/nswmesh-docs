@@ -44,6 +44,6 @@ These NSW Mesh defaults vary from the MeshCore defaults.
 | Setting | Recommended Value |
 | --- | --- |
 | Flood Advert | 24 hours |
-| Zero Hop Advert | 12 hours |
+| Zero Hop Advert | 0 minutes (disabled) |
 | Double Ack | Enabled |
 | Path Hash Size | 2 Bytes |
