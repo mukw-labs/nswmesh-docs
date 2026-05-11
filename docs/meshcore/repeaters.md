@@ -6,6 +6,33 @@ title: Repeaters
 
 Repeaters are the backbone of a MeshCore mesh. A good repeater location can extend coverage across suburbs, valleys, ridgelines, and walking tracks.
 
+## Repeater List
+
+This list is for public MeshCore repeaters that NSW Mesh users can recognise in the app. Match the repeater band with the local frequency profile before deploying or changing a fixed node. See the [MeshCore frequency profiles](./frequency) section for the current NSW Mesh band guidance.
+
+<div className="nswmesh-repeater-table-scroll">
+  <table className="nswmesh-repeater-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Public Key</th>
+        <th>Band</th>
+        <th>Co-owner</th>
+        <th>Path Mode</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>🐄 Hawkesbury Hts B</td>
+        <td title="64BEEFB0250AE525979E02F1EBDBCE266A1ACCCFF2CBFFB24EC9D99236E09D59">64BEEFB0250AE525979E02F1EBDBCE266A1ACCCFF2CBFFB24EC9D99236E09D59</td>
+        <td>Aus (Mid)</td>
+        <td>Yes</td>
+        <td>2-byte</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 ## Naming
 
 Use a clear name that helps other users understand where the repeater is.
