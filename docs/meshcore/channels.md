@@ -30,7 +30,7 @@ Private channels are only private if the key stays private. Do not reuse a priva
 | Macarthur | `#macarthur` | `au-nsw-syd` | Macarthur conversation and coordination. |
 | Nepean | `#nepean` | `au-nsw-syd` | Nepean conversation and coordination. |
 | Central Coast | `#centralcoast` | `au-nsw-cc` | Central Coast conversation and coordination. |
-| Illawarra | `#illawarra` | `au-nsw-ill` | Illawarra conversation and coordination. |
+| Illawarra | `#illawarra` | `au-nsw-wol` | Illawarra conversation and coordination. |
 | Newcastle | `#newcastle` | `au-nsw-ntl` | Newcastle and Hunter conversation and coordination. |
 
 Check with the NSW Mesh community before creating a new long-lived regional or operational channel.
@@ -72,6 +72,6 @@ Examples:
 | `au-nsw-syd` | Sydney metro scoped traffic. |
 | `au-nsw-cc` | Central Coast scoped traffic. |
 | `au-nsw-ntl` | Newcastle and Hunter scoped traffic. |
-| `au-nsw-ill` | Illawarra scoped traffic. |
+| `au-nsw-wol` | Illawarra scoped traffic. |
 
 A Sydney-specific message belongs in a Sydney channel scoped to `au-nsw-syd`; a state-wide message belongs in an NSW channel scoped to `au-nsw`; general first contact can stay in Public.
