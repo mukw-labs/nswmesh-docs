@@ -54,6 +54,12 @@ You may need to shorten words to fit the character limit, such as `Nth` for `Nor
 
 The emoji can reference the owner if preferred, but it is not enforced.
 
+## Repeater Owner Emojis
+
+To help keep repeater names recognisable across the mesh, try to avoid reusing emojis already associated with other repeater owners.
+
+The current repeater owner emoji list is hosted by [meshsydney.com](https://meshsydney.com/#repeater-owners).
+
 ## Location
 
 Configure a GPS location if possible.
