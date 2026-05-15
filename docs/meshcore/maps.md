@@ -12,8 +12,8 @@ Public maps are useful for checking nearby repeaters, understanding rough covera
 
 | Map | Link | Data source | Notes |
 | --- | --- | --- | --- |
-| WMCD CoreScope | [corescope.wmcd.net.au:8443](https://corescope.wmcd.net.au:8443) | WMCD MQTT | WMCD CoreScope map. |
-| Beefmesh | [beefmesh.link](https://beefmesh.link) | WMCD MQTT | Beefmesh map. |
+| NSWMesh CoreScope | [corescope.nswmesh.au](https://corescope.nswmesh.au) | NSWMesh MQTT | NSWMesh CoreScope map. |
+| Beefmesh | [beefmesh.link](https://beefmesh.link) | NSWMesh MQTT | Beefmesh map. |
 | EastMesh | [map.eastmesh.au](https://map.eastmesh.au/) | EastMesh observers | Aus Eastern Mesh live map. |
 | EastMesh CoreScope | [core.eastmesh.au](https://core.eastmesh.au/) | EastMesh observers | EastMesh CoreScope view. |
 | MeshMapper | [syd.meshmapper.net](https://syd.meshmapper.net/) | LetsMesh | Sydney MeshMapper coverage map. See the [MeshMapper wiki](https://wiki.meshmapper.net/). |
