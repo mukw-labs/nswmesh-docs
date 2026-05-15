@@ -65,6 +65,11 @@ const config = {
             label: 'Wiki'
           },
           {
+            href: `https://corescope.nswmesh.au`,
+            label: 'Map',
+            position: 'right'
+          },
+          {
             href: `https://github.com/${repo}`,
             label: 'GitHub',
             position: 'right'
